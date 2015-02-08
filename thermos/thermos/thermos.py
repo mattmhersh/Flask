@@ -7,13 +7,17 @@ app = Flask(__name__)
 app.logger.setLevel(DEBUG)
 
 bookmarks = []
+app.config['SECRET_KEY'] = '~t\x02\xed\x187T\xc6\xa9\xfc\xe8p\x1f\xaa\xbe2R\xc4\xc5\x8a97TA?'
 
 def store_bookmark(url):
     bookmarks.append(dict(
         url = url,
-        user = "reindert",
+        user = "mhersh",
         date = datetime.utcnow()
     ))
+
+def new_bookmarks(num):
+    return sorted(bookmarks, key=lambda bm: bm['date'], reverse=True)[:num]
 
 class User:
     def __init__(self, firstname, lastname):
@@ -28,7 +32,8 @@ class User:
 def index():
     return render_template('index.html', title="Title passed from view to template",
                            text=["first", "second", "third"],
-                           user=User("Matthew", "Hersh"))
+                           user=User("Matthew", "Hersh"),
+                           new_bookmarks=new_bookmarks(5))
 
 
 @app.route('/add', methods=['GET', 'POST'])
