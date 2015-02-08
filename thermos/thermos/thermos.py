@@ -9,12 +9,16 @@ app.logger.setLevel(DEBUG)
 bookmarks = []
 app.config['SECRET_KEY'] = '~t\x02\xed\x187T\xc6\xa9\xfc\xe8p\x1f\xaa\xbe2R\xc4\xc5\x8a97TA?'
 
-def store_bookmark(url):
+def store_bookmark(url, description):
     bookmarks.append(dict(
         url = url,
+        description = description,
         user = "mhersh",
         date = datetime.utcnow()
     ))
+
+def flash(message):
+    return message
 
 def new_bookmarks(num):
     return sorted(bookmarks, key=lambda bm: bm['date'], reverse=True)[:num]
