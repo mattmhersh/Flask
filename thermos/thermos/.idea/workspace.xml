@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aa59c4c-484c-494e-b3ca-73ce98d267bf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/500.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thermos.py" afterPath="$PROJECT_DIR$/thermos.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thermos.iws" />
@@ -40,8 +41,28 @@
       <file leaf-file-name="thermos.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thermos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="704">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880">
+              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/404.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.387097" vertical-offset="0" max-vertical-offset="1452">
+              <caret line="9" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="500.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/500.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9632701" vertical-offset="507" max-vertical-offset="1452">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -52,16 +73,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-14.193548" vertical-offset="0" max-vertical-offset="572">
               <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-              <folding />
+              <folding>
+                <marker date="1423425342389" expanded="true" signature="114:474" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.40758294" vertical-offset="630" max-vertical-offset="1474">
-              <caret line="13" column="94" selection-start-line="13" selection-start-column="94" selection-end-line="13" selection-end-column="94" />
+            <state vertical-scroll-proportion="-25.806452" vertical-offset="190" max-vertical-offset="1474">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,10 +108,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thermos.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/add.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/thermos.py" />
+        <option value="$PROJECT_DIR$/templates/500.html" />
       </list>
     </option>
   </component>
@@ -349,14 +373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thermos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="704">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.451612" vertical-offset="0" max-vertical-offset="704">
@@ -369,14 +385,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.193548" vertical-offset="0" max-vertical-offset="572">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding />
+          <folding>
+            <marker date="1423425342389" expanded="true" signature="114:474" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.40758294" vertical-offset="630" max-vertical-offset="1474">
-          <caret line="13" column="94" selection-start-line="13" selection-start-column="94" selection-end-line="13" selection-end-column="94" />
+        <state vertical-scroll-proportion="-25.806452" vertical-offset="190" max-vertical-offset="1474">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thermos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.387097" vertical-offset="0" max-vertical-offset="1452">
+          <caret line="9" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9632701" vertical-offset="507" max-vertical-offset="1452">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
