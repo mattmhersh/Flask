@@ -1,10 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
-    <h1>Add</h1>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block title %}
+Thermos -- Add a URL
+{% endblock %}
+
+{% block content %}
+    <section>
+        <h1>Add a new URL</h1>
+        <form action="" method="post">
+            <article>
+                <p>
+                    Please enter your bookmark here: <input type="text"/>
+                </p>
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+            </article>
+        </form>
+    </section>
+{% endblock %}
